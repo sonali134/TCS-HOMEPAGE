@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCS WEBPAGE</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        /* section{
+            height: 9000px;
+        } */
+        main{
+            background-color: black;
+            height: 1500px;
+            width: 100%;
+        }
+        ul{
+            display: inline-block;
+            vertical-align: middle;
+        }
+         ul li{
+            display: inline-block;
+            margin-left: 30px;
+            margin-top: 30px;
+            color: white;
+
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        #header1{
+            margin-left: 130px;
+        }
+        #header2{
+            margin-left: 75%;
+        }
+        img{
+            padding-top: 30px;
+            position: absolute;
+        }
+        #home{
+            height: 100vh;
+            width: 100%;
+            border: 1px solid;
+            background-image: url(./tcs.jpeg) ;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            opacity: 0.5;
+            
+        }
+        #text{
+            height: 500px;
+            width: 100%;
+            border: 1px solid transparent;
+        
+        }
+        h1{
+            font-size: 60px;
+            color: white;
+            text-align: center;
+
+            
+        }
+        #button{
+            background-color: red;
+            color: white;
+            padding-top: 30px;
+            padding-left: 40px;
+            font-size: 20px;
+            text-align: center;
+            border-radius: 30px;
+            padding: 20px 40px;
+            margin-top: 400px;
+            margin-left: 600px;
+            border: red;
+        }
+        h2{
+            color: white;
+            font-size: 40px;
+
+        }
+        #snap{
+            height: 600px;
+            width: 100%;
+            border: 1px solid;
+        }
+        .snap{
+            height: 100px;
+            width: 100px;
+            border: 3px solid red;
+            display: inline-block;
+            vertical-align: middle;
+            border-radius: 50%;
+            margin-left: 50px;
+            color:white;
+        }
+        .snap1{
+            height: 80px;
+            width: 80px;
+            border: 1px solid transparent ;
+            display: inline-block;
+            vertical-align: middle;
+            border-radius: 50%;
+            margin-left: 10px;
+            margin-top: 7px;
+            color:white;
+        }
+        #snap1{
+            margin-left: 90px;
+        }
+       #snap11{
+        background-image: url(./snap1.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       }
+       #snap12{
+        background-image: url(./snap2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       }
+       #snap13{
+        background-image: url(./snap3.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       }
+       #snap14{
+        background-image: url(./snap4.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       }
+       #snap15{
+        background-image: url(./snap5.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       }
+       #snap16{
+        background-image: url(./snap6.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       }
+       #snap17{
+        background-image: url(./snap7.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       }
+       #snap18{
+        background-image: url(./snap8.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       }
+       #li1{
+        margin-left: 50px;
+        margin-top: 0px;
+       }
+       #li2{
+        margin-left: 60px;
+       }
+       #li3{
+        margin-left: 80px;
+       }
+       #li4{
+        margin-left: 60px;
+       }
+       #li5{
+        margin-left: 40px;
+       }
+       #li6{
+        margin-left: 50px;
+       }
+       #li7{
+        margin-left: 40px;
+       }
+       #li8{
+        margin-left: 50px;
+        width: 150px;
+       }
+       .text{
+        height: 600px;
+        width: 100%;
+        border: 1px solid;
+
+       }
+       .text1{
+        height: 400px;
+        width: 700px;
+        border: 1px solid;
+        display: inline-block;
+        vertical-align: middle;
+
+       }
+       #text3{
+        height: 300px;
+        width: 600px;
+        border: 1px solid;
+        background-color: gray;
+        border-radius: 20px;
+        margin-left: 70px;
+       }
+       #text2{
+        margin-left: 50px;
+       }
+       .aro{
+        background-color: rgb(182, 21, 107);
+        color: white;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        border: 1px solid rgb(182, 21, 107);
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        font-size: 30px;
+       }
+       #aro1{
+        margin-left: 30px;
+       }
+       #aro2{
+        margin-left: 440px;
+       }
+       .photo{
+        height: 600px;
+        width: 100%;
+        border: 1px solid;
+       }
+       .photo1{
+        height: 450px;
+        width: 450px;
+        border: 1px solid;
+        display: inline-block;
+        vertical-align: middle;
+       }
+       #photo1{
+        background-image: url(./photo1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       }
+       #photo2{
+        background-image: url(./photo2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       }
+       #photo3{
+        background-image: url(./photo3.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       }
+       .pbutton{
+        padding: 10px 30px;
+        background-color: white;
+        border-radius: 30px;
+        border-color: white;
+       }
+       #discover{
+        height: 600px;
+        width: 1400px;
+        border: 1px solid;
+        background-image: url(./discover.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-left: 30px;
+       }
+       #last{
+        width: 1000px;
+        height: 600px;
+        margin-top: 350px;
+         background-image: url(./last.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+         border: 1px solid transparent;
+       }
+       .sticker{
+        height: 200px;
+        width: 270px;
+        border: 3px solid white;
+        display: inline-block;
+        margin-top: 500px ;
+        margin-left: 20px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        vertical-align: middle;
+        background-color: black;
+
+       }
+       #sticker1{
+        border-color: red;
+        margin-left: 220px;
+        margin-top:450px ;
+       }
+       #next{
+        height: 400px;width: 600px;
+        border: 1px solid white;
+        background-color: white;
+        position: relative;
+        margin:130px 0px 0px 700px ;
+        padding-left: 50px;
+        font-size: 20px;
+       }
+       .last1{
+        height: 1000px;
+        width: 100%;
+        border: 1px solid transparent;
+       }
+       .last2{
+        height: 500px;
+        width: 400px;
+        border: 1px solid transparent;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: inline-block;
+        /* margin-top: 50px; */
+        margin-left: 40px;
+       }
+       #last1{
+        background-image: url(./last1.jpeg);
+        margin-left: 90px;
+       }
+       #last2{
+        background-image: url(./last2.jpeg);
+       }
+       #last3{
+        background-image: url(./last3.jpeg);
+       }
+.next1{
+    width: 1000px;
+        height: 600px;
+        margin-left: 500px;
+        margin-top: -300px;
+         background-image: url(./next1.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+         border: 1px solid transparent;
+}
+#next1{
+        height: 400px;width: 600px;
+        border: 1px solid transparent;
+        background-color: white;
+        position: absolute;
+        margin:130px 0px 0px 0px ;
+        margin-left: -400px;
+        position: relative;
+        
+        padding-left: 50px;
+        font-size: 20px;
+       }
+       .list{
+        width: 300px;
+        height: 1000px;
+        border: 1px solid transparent;
+        font-size: 25px ;
+        color: white;
+        padding-top: 50px;
+        margin-left: 60px;
+        display: inline-block;
+        vertical-align: middle;
+       }
+       .a{
+        display: block;
+        color: darkgrey;
+        font-size: 15px;
+        line-height: 40px;
+        font-family:'basis-regular';
+       }
+       sup{
+        font-size: 7px;
+       }
+       .img{
+        display: inline-block;
+        margin-left: 250px;
+        padding-left: 25px;
+        vertical-align: middle;
+        text-align: justify;
+        margin-top: 20px;
+        
+       }
+       #p{
+        margin-left: 520px;
+        color: white;
+        padding-top: 50px;
+        margin-top: -20px;
+       }
+       .li{
+       
+        font-size: 15px;
+        display: inline-block;
+        list-style: none;
+       }
+       #ul{
+        margin-left: 850px;
+        margin-top: -90px;
+       }
+      
+       #img0{
+        margin-left:10px ;
+        margin-top: 0px;
+       }
+       #img2{
+        margin-left: 200px;
+       }
+       #img3{
+        margin-left: 300px;
+       }
+       #img4{
+        margin-left: 350px;
+       }
+       #img5{
+        margin-left: 400px;
+       }
+    </style>
+</head>
+<body>
+    <main>
+        <nav>
+            <header>
+                <img src="./tcs logo.svg" alt="">
+                <ul id="header1">
+                    <li><a href="">What we do</a></li>
+                    <li><a href="">Who we are</a></li>
+                    <li><a href="">Insights</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Investors</a></li>
+                        <li style="margin-left: 300px;"><a href="" style="color: gray;">CONTACT US</a></li>
+                        <li><a href="" style="color: gray">TCS WORLDWIDE</a></li>
+                    </ul>
+            </header>
+        </nav>
+        <section>
+            <h1 >Collaboration for Transformation</h1>
+            <div id="home">
+                <input type="button" value="Know More" id="button">
+                
+                </div>
+            </div>
+            <div id="snap">
+                <h2>Snapshots</h2>
+                <div class="snap" id="snap1"><div class="snap1" id="snap11"></div></div>
+                <div class="snap" id="snap2"><div class="snap1" id="snap12"></div></div>
+                <div class="snap" id="snap3"><div class="snap1" id="snap13"></div></div>
+                <div class="snap" id="snap4"><div class="snap1" id="snap14"></div></div>
+                <div class="snap" id="snap5"><div class="snap1" id="snap15"></div></div>
+                <div class="snap" id="snap6"><div class="snap1" id="snap16"></div></div>
+                <div class="snap" id="snap7"><div class="snap1" id="snap17"></div></div>
+                <div class="snap" id="snap8"><div class="snap1" id="snap18"></div></div>
+                <ul>
+                    <li id="li1">Better tickets</li>
+                    <li id="li2">The right track</li>
+                    <li id="li3">Power up</li>
+                    <li id="li4">Neural Manufacturing</li>
+                    <li id="li5">Insurance bots</li>
+                    <li id="li6">Ahead with Med</li>
+                    <li id="li7">A Digital Sugar rush</li>
+                    <li id="li8" >Virtual Worlds, 
+                        real privacy concerns</li>
+                </ul>
+                
+                
+            </div>
+            <div class="text" id="text1">
+                <div class="text1" id="text2">
+                    <h2 style="font-size: 20px;">GLOBAL THOUGHT LEADERSHIP STUDY</h2>
+                    <h2 style="font-size: 60px;">Answer a few questions to unlock insights into innovation with cloud</h2>
+                </div>
+                <div class="text1" id="text3">
+                    <h2 style="font-size: 50px; text-align: center; ">Are you leveraging your competitive advantage with cloud?</h2>
+                    <input type="button" value="<" class="aro" id="aro1">
+                    <input type="button" value=">" class="aro" id="aro2">
+                </div>
+            </div>
+            <div class="photo">
+            <h2>Insights by interest</h2>
+                <div id="photo1" class="photo1"><input type="button" value="Health & Welness" class="pbutton"></div>
+                <div id="photo2" class="photo1"><input type="button" value="Cybersecurity" class="pbutton"></div>
+                <div id="photo3" class="photo1"><input type="button" value="Data & Analytics" class="pbutton"></div>
+            </div>
+            <div class="text">
+                <h2>Discover the TCS difference</h2>
+                <div id="discover">
+                    <div class="sticker" id="sticker1"><h3 style="color: red;">AI & CLOUD</h3>
+                    75% of organizations invensted in AI & ML in the past 2years
+                    </div>
+                    <div class="sticker" id="sticker2">
+                        <h3>RECOGNITION</h3>
+                        IDC Marketscape lauds our holistic approach
+                    </div>
+                    <div class="sticker" id="sticker3">
+                        <h3>TCS BANCS</h3>
+                        Building a bank for the future
+                    </div>
+                    <div class="sticker" id="sticker4">
+                        <h3>RECOGNITION</h3>
+                        Women are 42% of our 9,000+ workforce
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section style="background-color: white;">
+            <div class="tex" id="last">
+                <div id="next">
+                    <h3 style="color: gray;">WHO WE ARE</h3>
+                    <h2 style="color: maroon;">We build greater futures through innovation and collective knowledge.</h2>
+                    TCS is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 50 years.
+                    <h3>Get to know us</h3> 
+                </div>
+            </div>
+            <div class="last1">
+                <h2 style="color: black;">Belief in action</h2>
+                <div class="last2" id="last1"></div>
+                <div class="last2" id="last2"></div>
+                <div class="last2" id="last3"></div>
+            </div>
+            <div class="next1">
+                <div id="next1"> <h3 style="color: gray;">WHO WE ARE</h3>
+                    <h2 style="color: maroon;">TCS transforms businesses through technology.</h2>
+                    We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise.
+                    <h3>Get to know us</h3></div>
+            </div>
+        </section>
+        <section style="background-color: #212529;">
+            <div class="list">
+                Industries
+                <a class="a" href="">Banking</a>
+                <a class="a" href="">Capital Markets</a>
+                <a class="a" href="">Consumer Goods and Distribution</a>
+                <a class="a" href="">Communications, Media, and Information services</a>
+                <a class="a" href="">Education</a>
+                <a class="a" href="">Energy, Resources, and Utilities</a><a href=""></a>
+                <a class="a" href="">Healthcare</a>
+                <a class="a" href="">High Tech</a>
+                <a class="a" href="">Insurance</a>
+                <a class="a" href="">Life Sciences</a>
+                <a class="a" href="">Manufacturing</a>
+                <a class="a" href="">Public Service</a>
+                <a class="a" href="">Retail</a>
+                <a class="a" href="">Travel and Logistics</a>
+            </div>
+            <div class="list">
+                Services
+                <a href=""></a>
+                <a href="" class="a">Cloud</a>
+                <a href="" class="a">Cognitive Business Operations</a>
+                <a href="" class="a">Consulting</a>
+                <a href="" class="a">Cybersecurity</a>
+                <a href="" class="a">Data and Analytics</a>
+                <a href="" class="a">Enterprise Solutions</a>
+                <a href="" class="a">IoT and Digital Engineering</a>
+                <a href="" class="a">Sustainability Services</a>
+                <a href="" class="a">TCS Interactive</a>
+                <a href="" class="a">TCS and AWS Cloud</a>
+                <a href="" class="a">TCS Enterprice Cloud</a>
+                <a href="" class="a">TCS and Google Cloud</a>
+                <a href="" class="a">TCS and Microsoft Cloud</a>
+                
+            </div>
+            <div class="list">
+                Products and Platforms
+                <a href="" class="a">TCS ADD<sup>TM</sup></a>
+                <a href="" class="a">TCS BaNCS<sup>TM</sup></a>
+                <a href="" class="a">TCS BFSI Platforms</a>
+                <a href="" class="a">TCS CHROMA<sup>TM</sup></a>
+                <a href="" class="a">TCS Customer Intelligence & Insights<sup>TM</sup></a>
+                <a href="" class="a">TCS ERP on Cloud</a>
+                <a href="" class="a">ignio<sup>TM</sup></a>
+                <a href="" class="a">TCS HOBS<sup>TM</sup></a>
+                <a href="" class="a">TCS Intelligent Urban Exchange<sup>TM</sup></a>
+                <a href="" class="a">TCS OmniStore<sup>TM</sup></a>
+                <a href="" class="a">TCS Optumera<sup>TM</sup></a>
+                <a href="" class="a">TCS TAP<sup>TM</sup></a>
+                <a href="" class="a">Quartz<sup>TM</sup>- The Smart Ledgers<sup>TM</sup></a>
+                <a href="" class="a">TCS TwinX<sup>TM</sup></a>
+                <a href="" class="a">TCS MasterCraft<sup>TM</sup></a>
+                <a href="" class="a">Jile<sup>TM</sup></a>
+                <a href="" class="a">TCS iON<sup>TM</sup></a>
+               
+            </div>
+            <div class="list">
+                Insights
+                <a href="" class="a">Customer Stories</a>
+                <a href="" class="a">Cloud</a>
+                <a href="" class="a">Blockchain</a>
+                <a href="" class="a">IoT</a>
+                <a href="" class="a">Metaverse</a>
+                <a href="" class="a">Future of work</a>
+                <a href="" class="a">Health and Wellness</a>
+                <a href="" class="a">Sustainability</a>
+                <a href="" class="a">AL and ML</a>
+                <a href="" class="a">Cybersecurity</a>
+                <a href="" class="a">Perspective</a>
+                <a href="" class="a" style="font-size: 20px;">More Information</a>
+                <a href="" class="a">Careers</a>
+                <a href="" class="a">Corporate Social Responsibility</a>
+                <a href="" class="a">Diversity, Equity, and Inclusion</a>
+                <a href="" class="a">Investor Relations</a>
+                <a href="" class="a">Sports Sponsorships</a>
+                <a href="" class="a">TCS Pace<sup>TM</sup></a>
+                <a href="" class="a">TCS Research</a>
+                <a href="" class="a">The TCS Way</a>
+                <a href="" class="a">Who we are</a>
+            </div>
+        </section>
+        <footer>
+            <img src="./tcs logo.svg" alt="" class="img" id="img0">
+            <img src="./Facebook.svg" alt="" class="img" id="img1">
+            <img src="./Youtube.svg" alt="" class="img" id="img2">
+            <img src="./Twitter.svg" alt="" class="img" id="img3">
+            <img src="./Instagram.svg" alt="" class="img" id="img4" height="20px" width="20px">
+            <img src="./linkedin.svg" alt="" class="img" id="img5" height="20px" width="20px"> 
+            <p id="p">c2023 TATA Consultancy Service Limited</p>
+            <ul id="ul">
+            <li class="li"><a href="" class="ab" id="ab">Privacy Notice</a></li>
+            <li class="li"><a href="" class="ab">Cookie Policy</a></li>
+            <li class="li"><a href="" class="ab">Disclaimer</a></li>
+            <li class="li"><a href="" class="ab">Security Policy</a></li>
+            </ul>
+        </footer>
+       
+    </main>
+</body>
+</html>
